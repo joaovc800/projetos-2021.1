@@ -1,8 +1,8 @@
 # **Nome do Projeto**
 
 ## Dados da Turma
-* Dia da semana: **Quarta-Feira**
-* Período: **Noturno**
+* Dia da semana: **Terça-Feira**
+* Período: **Tarde**
 
 ## Integrantes
 | RA   | NOME COMPLETO | CURSO | TURMA |
