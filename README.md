@@ -7,9 +7,9 @@
 ## Integrantes
 | RA   | NOME COMPLETO | CURSO | TURMA |
 |------|---------------|-------|-------|
-| 920102019 | JOÃO VINICIUS DA COSTA  | TADS | 3A    |
-| 920123532 | GABRIEL BARBOSA TEXEIRA | TADS | 3A    |
-| 920110693 | LEONARDO AUGUSTO COELHO FERREIRA  | TADS | 3A    |
+| 920102019 | JOÃO VINICIUS DA COSTA  | TADS | 3    |
+| 920123532 | GABRIEL BARBOSA TEXEIRA | TADS | 3    |
+| 920110693 | LEONARDO AUGUSTO COELHO FERREIRA  | TADS | 3    |
 
 ## Descrição do Projeto
 Descrever brevemente o objetivo do projeto e como será alcançado. Por exemplo, citar as metodologias utilizadas, linguagens de programação, etc.
