@@ -12,7 +12,7 @@
 | 920110693 | LEONARDO AUGUSTO COELHO FERREIRA  | TADS | 3    |
 
 ## Descrição do Projeto
-Projeto WEB feito em HTML, CSS, JS e PHP para apresentação da empresa. O site também terá um recurso com uma API de pagamentos online para assim os clientes conseguirem comprar os planos de segurnça que a Wit Soltions proporciona.
+Projeto WEB feito em HTML, CSS, JS e PHP para apresentação da empresa. O site também terá um recurso com uma API de pagamentos online para assim os clientes conseguirem comprar os planos de segurança que a Wit Soltions proporciona.
 
 ## Endereço da Aplicação
 Informar o endereço IP ou URL da aplicação, conforme exemplo abaixo. É importante lembrar que a máquinas em *Cloud* devem estar "no ar" para que as funcionalidades da aplicação estejam disponíveis. Caso não estejam disponíveis os serviços ou a aplicação não puder ser executada, não háverá como atribuir uma nota.
