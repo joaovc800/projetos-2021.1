@@ -5,7 +5,7 @@
     <title>Wit Solutions | Home Page</title>
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Wit Solutions empresa de web serurança, sua empresa está segura?">
-    <meta property="og:image" content="logo1.0">
+    <meta property="og:image" content="logo1.0.png">
     <meta property="og:description" content="Wit Solutions empresa de web serurança, sua empresa está segura?">
     <meta property="og:title" content="Wit Solutions">
     <link rel="stylesheet" href="home.css"  />
