@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Wit Solutions | Home Page</title>
-    <link href="home.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="home.css"  />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -12,7 +12,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="#">Wit Solutions</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,6 +33,49 @@
         </div>
       </div>
     </nav>
+    <main>
+      <div class="container-fluid">
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+            <li data-target="#mainSlider" data-slide-to="1"></li>
+            <li data-target="#mainSlider" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://files.cercomp.ufg.br/weby/up/1/o/img-radio.png?1544709695" class="d-block w-100"alt="teste1">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Wit Solutions</h2>
+                <p>Venha conhecer nosso planos</p>
+                <a href="#" class="main-btn">Ver planos</a>
+              </div>
+            </div>
+              <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpPcPV3cLvqwUOFdAnUvNN2VXddzxQZpyNg&usqp=CAU" class="d-block w-100"alt="teste1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Wit Solutions</h2>
+                  <p>Está querendo adquirir nossos planos ?</p>
+                  <a href="#" class="main-btn">Entre em contato</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.heteroclito.fr/modules/Jssor/img/landscape/01.jpg" class="d-block w-100"alt="teste1">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Wit Solutions</h2>
+                <p>Sua empresa está segura ?</p>
+                <a href="#" class="main-btn">Ver planos</a>
+              </div>
+            </div>
+          </div>
+          <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+          </div>
+      </div>
+    </main>
   </body>
 </html>
 
