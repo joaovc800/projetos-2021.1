@@ -1,9 +1,16 @@
+.menu{
+  position: relative;
+  left: 1%;
+}
 .container-fluid{
   padding:0px !important;
 
 }
 #mainSlider .carousel-inner, #mainSlider .carousel-item{
   height: 90vh;
+}
+.carousel-item img{
+  width: 100%;
 }
 #mainSlider .carousel-caption{
   top: 30%;
@@ -28,12 +35,12 @@
   border-radius: 30px;
   border: 3px solid transparent;
   transition: background-color 0.5s;
+  text-decoration: none;
 }
 .main-btn:hover{
-  text-decoration: none;
   color:#fff;
   background-color: transparent;
-  border-color: #65daf9; 
+  border-color: #65daf9;
 }
 .carousel-indicators .active{
   background-color: #65daf9;
