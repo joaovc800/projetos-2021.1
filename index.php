@@ -10,72 +10,75 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo2.0.png" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Wit Solutions</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Planos</a>
-            </li>
-          </ul>
+    <header class="sticky-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid menu">
+          <a class="navbar-brand" href="#">Wit Solutions</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contato</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Planos</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <main>
-      <div class="container-fluid">
-        <div id="mainSlider" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-            <li data-target="#mainSlider" data-slide-to="1"></li>
-            <li data-target="#mainSlider" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://files.cercomp.ufg.br/weby/up/1/o/img-radio.png?1544709695" class="d-block w-100"alt="teste1">
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Wit Solutions</h2>
-                <p>Venha conhecer nosso planos</p>
-                <a href="#" class="main-btn">Ver planos</a>
-              </div>
-            </div>
-              <div class="carousel-item">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwpPcPV3cLvqwUOFdAnUvNN2VXddzxQZpyNg&usqp=CAU" class="d-block w-100"alt="teste1">
+      </nav>
+    </header>
+      <main>
+        <div class="container-fluid">
+          <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#mainSlider" data-slide-to="1"></li>
+              <li data-target="#mainSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="app.png"alt="wit-solutions">
                 <div class="carousel-caption d-none d-md-block">
                   <h2>Wit Solutions</h2>
-                  <p>Está querendo adquirir nossos planos ?</p>
-                  <a href="#" class="main-btn">Entre em contato</a>
+                  <p>Venha conhecer nosso planos</p>
+                  <a href="#" class="main-btn">Ver planos</a>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img src="https://www.heteroclito.fr/modules/Jssor/img/landscape/01.jpg" class="d-block w-100"alt="teste1">
-              <div class="carousel-caption d-none d-md-block">
-                <h2>Wit Solutions</h2>
-                <p>Sua empresa está segura ?</p>
-                <a href="#" class="main-btn">Ver planos</a>
+                <div class="carousel-item">
+                  <img src="negocio.png"alt="teste1">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h2>Wit Solutions</h2>
+                    <p>Está querendo adquirir nossos planos ?</p>
+                    <a href="#" class="main-btn">Entre em contato</a>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="seguranca.png" class="d-block w-100"alt="teste1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>Wit Solutions</h2>
+                  <p>Sua empresa está segura ?</p>
+                  <a href="#" class="main-btn">Ver planos</a>
+                </div>
               </div>
             </div>
-          </div>
-          <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          </a>
-          <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          </a>
-          </div>
-      </div>
-    </main>
+            <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+            </div>
+        </div>
+      </main>
   </body>
 </html>
 
