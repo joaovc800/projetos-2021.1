@@ -2,8 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <title>Wit Solutions | Home Page</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="Wit Solutions empresa de web serurança, sua empresa está segura?">
+    <meta property="og:image" content="logo1.0">
+    <meta property="og:description" content="Wit Solutions empresa de web serurança, sua empresa está segura?">
+    <meta property="og:title" content="Wit Solutions">
     <link rel="stylesheet" href="home.css"  />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="script.js"></script>
