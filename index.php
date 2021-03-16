@@ -40,51 +40,129 @@
         </div>
       </nav>
     </header>
-      <main>
-        <div class="container-fluid">
-          <div id="slide" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-            <button type="button d-none d-md-block" data-bs-target="#slide" data-slide-to="0" class="active" aria-current="true"></button>
-            <button type="button d-none d-md-block" data-bs-target="#slide" data-slide-to="1"></button>
-            <button type="button d-none d-md-block" data-bs-target="#slide" data-slide-to="2"></button>
+      <div class="container-fluid" id="sli">
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100"src="app.png"alt="wit-solutions">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Wit Solutions</h2>
-                  <p>Venha conhecer nossos planos</p>
-                  <a class="main-btn" href="#">Planos</a>
-                </div>
-              </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100"src="negocio.png"alt="teste1">
-                  <div class="carousel-caption d-none d-md-block">
-                    <h2>Wit Solutions</h2>
-                    <p>Está querendo adquirir nossos planos ?</p>
-                    <a class="main-btn" href="#">Planos</a>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100"src="seguranca.png" class="d-block w-100"alt="teste1">
-                <div class="carousel-caption d-none d-md-block">
-                  <h2>Wit Solutions</h2>
-                  <p>Sua empresa está segura ?</p>
-                  <a class="main-btn" href="#">Planos</a>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="app.png" alt="">
+              <div class="container">
+                <div class="carousel-caption text-end">
+                  <h1>Wit Solutions</h1>
+                  <p>Venha Conhecer a melhor empresa de web segurança</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Sobre</a></p>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev d-none d-md-block" type="button" data-target="#slide"  data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next d-none d-md-block" type="button" data-target="#slide" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="carousel-item">
+              <img src="negocio.png">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Contato</h1>
+                  <p>Está com duvidas ainda? entre em contato<span class=" fw-bold"> agora mesmo</span></p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Contato</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="seguranca.png">
+              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1>Planos</h1>
+                  <p>Sua empresa está segura? adquira já seu pacote de plano mais seguro!</p>
+                  <p><a class="btn btn-lg btn-primary" href="#">Planos</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-target="#myCarousel" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-target="#myCarousel" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="container featurette"">
+        <h2>Eliminação da baixa 
+          <span class="text-muted">vulnerabilidade</span>
+        </h2>
+        <p class="lead">Muitas empresas desperdiçam muito tempo tentando combater a
+          ataques de invasores (hackers), assim como o avanço da tecnologia nos
+          beneficia com novas técnicas e equipamentos, vem também o avanço
+          contrário, isso porque crescemnovos meios e táticas de hackers que
+          podem ser prejudiciais futuramente, foi pensando na sua tranqüilidade
+          que a nossa empresa desenvolveu um programa para detectar o nível de
+          vulnerabilidade nos sistemas de nossos clientes.</p>
+          <hr class="featurette-divider">
+          <h2>Monitoramento
+            <span class="text-muted">24hrs</span>
+          </h2>
+          <p class="lead">Ninguém está livre de ficar na mira de pessoas mal intencionadas na web,
+          foi pensando nesta hipótese que a WIT Solutions, desenvolveu o melhor
+          sistema de monitoramento, com profissionais com uma visão sobre o que
+          está acontecendo em todo o sistema, além de estarem sempre fazendo
+          uma varredura completa no sistema de segurança, nossos clientes
+          sempre serão informado de forma IMEDIATA quando algo de errado é
+          encontrado, com a mesma velocidade que o problema é encontrado, vem
+          a solução com nossos coordenadores de rede, assim não só passamos o
+          problema a quem de fato interessa, mas sim também a solução e os
+          procedimentos a seguir.</p>
+          <hr class="featurette-divider">
+      </div>
+      <footer class="container py-5 bg-light">
+        <div class="row">
+          <div class="col-12 col-md">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+            <small class="d-block mb-3 text-muted">&copy; Since 2020</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Coisas legais</a></li>
+              <li><a class="link-secondary" href="#">Recurso aleatório</a></li>
+              <li><a class="link-secondary" href="#">Recurso de equipe</a></li>
+              <li><a class="link-secondary" href="#">Coisas para desenvolvedores</a></li>
+              <li><a class="link-secondary" href="#">Outros</a></li>
+              <li><a class="link-secondary" href="#">Última vez</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Nome do recurso</a></li>
+              <li><a class="link-secondary" href="#">Recurso</a></li>
+              <li><a class="link-secondary" href="#">Outro recurso</a></li>
+              <li><a class="link-secondary" href="#">Recurso final</a></li>
+            </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary" href="#">O negócio</a></li>
+                <li><a class="link-secondary" href="#">Educação</a></li>
+                <li><a class="link-secondary" href="#">Governo</a></li>
+                <li><a class="link-secondary" href="#">Jogos</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>About</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary" href="#">Equipe</a></li>
+                <li><a class="link-secondary" href="#">Localizações</a></li>
+                <li><a class="link-secondary" href="#">Privacidade</a></li>
+                <li><a class="link-secondary" href="#">Termos</a></li>
+              </ul>
             </div>
         </div>
-      </main>
+      </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
 
