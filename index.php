@@ -42,18 +42,18 @@
     </header>
       <main>
         <div class="container-fluid">
-          <div id="mainSlider" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-              <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
-              <li data-target="#mainSlider" data-slide-to="1"></li>
-              <li data-target="#mainSlider" data-slide-to="2"></li>
-            </ol>
+          <div id="slide" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#slide" data-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button" data-bs-target="#slide" data-slide-to="1"></button>
+            <button type="button" data-bs-target="#slide" data-slide-to="2"></button>
+          </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="app.png"alt="wit-solutions">
                 <div class="carousel-caption d-none d-md-block">
                   <h2>Wit Solutions</h2>
-                  <p>Venha conhecer nosso planos</p>
+                  <p>Venha conhecer nossos planos</p>
                   <a href="#" class="main-btn">Ver planos</a>
                 </div>
               </div>
@@ -62,7 +62,6 @@
                   <div class="carousel-caption d-none d-md-block">
                     <h2>Wit Solutions</h2>
                     <p>Está querendo adquirir nossos planos ?</p>
-                    <a href="#" class="main-btn">Entre em contato</a>
                   </div>
                 </div>
                 <div class="carousel-item">
@@ -74,10 +73,10 @@
                 </div>
               </div>
             </div>
-            <a href="#mainSlider" class="carousel-control-prev" role="button" data-slide="prev">
+            <a href="#slide" class="carousel-control-prev" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             </a>
-            <a href="#mainSlider" class="carousel-control-next" role="button" data-slide="next">
+            <a href="#slide" class="carousel-control-next" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
             </a>
             </div>
