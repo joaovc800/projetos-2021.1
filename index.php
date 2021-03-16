@@ -44,43 +44,44 @@
         <div class="container-fluid">
           <div id="slide" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-            <button type="button" data-bs-target="#slide" data-slide-to="0" class="active" aria-current="true"></button>
-            <button type="button" data-bs-target="#slide" data-slide-to="1"></button>
-            <button type="button" data-bs-target="#slide" data-slide-to="2"></button>
+            <button type="button d-none d-md-block" data-bs-target="#slide" data-slide-to="0" class="active" aria-current="true"></button>
+            <button type="button d-none d-md-block" data-bs-target="#slide" data-slide-to="1"></button>
+            <button type="button d-none d-md-block" data-bs-target="#slide" data-slide-to="2"></button>
           </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="app.png"alt="wit-solutions">
+                <img class="d-block w-100"src="app.png"alt="wit-solutions">
                 <div class="carousel-caption d-none d-md-block">
                   <h2>Wit Solutions</h2>
                   <p>Venha conhecer nossos planos</p>
-                  <a href="#" class="main-btn">Ver planos</a>
+                  <a class="main-btn" href="#">Planos</a>
                 </div>
               </div>
                 <div class="carousel-item">
-                  <img src="negocio.png"alt="teste1">
+                  <img class="d-block w-100"src="negocio.png"alt="teste1">
                   <div class="carousel-caption d-none d-md-block">
                     <h2>Wit Solutions</h2>
                     <p>Está querendo adquirir nossos planos ?</p>
+                    <a class="main-btn" href="#">Planos</a>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="seguranca.png" class="d-block w-100"alt="teste1">
+                  <img class="d-block w-100"src="seguranca.png" class="d-block w-100"alt="teste1">
                 <div class="carousel-caption d-none d-md-block">
                   <h2>Wit Solutions</h2>
                   <p>Sua empresa está segura ?</p>
-                  <a href="#" class="main-btn">Ver planos</a>
+                  <a class="main-btn" href="#">Planos</a>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-target="#slide"  data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-target="#slide" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+            <button class="carousel-control-prev d-none d-md-block" type="button" data-target="#slide"  data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none d-md-block" type="button" data-target="#slide" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
             </div>
         </div>
       </main>
