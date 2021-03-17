@@ -122,8 +122,8 @@
           procedimentos a seguir.</p>
           <hr class="featurette-divider">
       </div>
-      <div class="container-fluid footer">
-        <footer class="container footer py-3">
+      <div class="container-fluid bg-dark">
+        <footer class="container bg-dark py-3">
           <div class="row">
             <div class="col-6 col-md">
               <h5 class="text-light">Features</h5>
@@ -164,7 +164,7 @@
                 </ul>
               </div>
           </div>
-        </footer>
+        <hr class="featurette-divider bg-light">
       </div>
       <div class="container-fluid bg-dark">
         <p class="text-light centro p-3">Wit Solutions CRM. | CNPJ 54.321.458/0001-03</p>
@@ -178,3 +178,5 @@
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
+
+
