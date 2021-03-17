@@ -122,8 +122,8 @@
           procedimentos a seguir.</p>
           <hr class="featurette-divider">
       </div>
-      <div class="container-fluid bg-dark">
-        <footer class="container bg-dark py-3">
+      <div class="container-fluid rodape">
+        <footer class="container rodape py-3">
           <div class="row">
             <div class="col-6 col-md">
               <h5 class="text-light">Features</h5>
@@ -154,7 +154,7 @@
                   <li><a class="link-secondary" href="#">Termos</a></li>
                 </ul>
               </div>
-              <div class="col-6 col-md">
+              <div class="col-6 col-md d-inline">
                 <h5 class="text-light">Redes Sociais</h5>
                 <ul class="list-unstyled text-small">
                   <li><a class="link-secondary center" href="#" title="Facebook"><img src="facebook.png" class="icon"></a></li>
