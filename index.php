@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Wit Solutions | Home Page</title>
+    <title>Wit Solutions | Home</title>
     <meta name="viewport" content="width=device-width">
-    <meta name="description" content="Wit Solutions empresa de web serurança, sua empresa está segura?">
+    <meta name="description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
     <meta property="og:image" content="logo1.0.png">
-    <meta property="og:description" content="Wit Solutions empresa de web serurança, sua empresa está segura?">
+    <meta property="og:description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
     <meta property="og:title" content="Wit Solutions">
     <link rel="stylesheet" href="home.css"  />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -20,7 +20,7 @@
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid menu">
-          <a class="navbar-brand" href="#">Wit Solutions</a>
+          <a class="navbar-brand" href="#" title="Home">Wit Solutions</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -33,7 +33,13 @@
                 <a class="nav-link" aria-current="page" href="#">Contato</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Serviços e suporte</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Planos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">COVID-19</a>
               </li>
             </ul>
           </div>
@@ -49,17 +55,17 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="app.png" alt="">
+              <img src="app.png" alt="duas pessoas com um notebook">
               <div class="container">
                 <div class="carousel-caption text-end">
                   <h1>Wit Solutions</h1>
-                  <p>Venha Conhecer a melhor empresa de web segurança</p>
+                  <p>Venha conhecer a melhor empresa de web segurança</p>
                   <p><a class="btn btn-lg btn-primary" href="#">Sobre</a></p>
                 </div>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="negocio.png">
+              <img src="negocio.png" alt="ações subindo">
               <div class="container">
                 <div class="carousel-caption">
                   <h1>Contato</h1>
@@ -69,7 +75,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="seguranca.png">
+              <img src="seguranca.png" alt="segurança cadeado">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Planos</h1>
@@ -89,14 +95,14 @@
           </button>
         </div>
       </div>
-      <div class="container featurette"">
+      <div class="container featurette mt-4"">
         <h2>Eliminação da baixa 
           <span class="text-muted">vulnerabilidade</span>
         </h2>
         <p class="lead">Muitas empresas desperdiçam muito tempo tentando combater a
           ataques de invasores (hackers), assim como o avanço da tecnologia nos
           beneficia com novas técnicas e equipamentos, vem também o avanço
-          contrário, isso porque crescemnovos meios e táticas de hackers que
+          contrário, isso porque crescem novos meios e táticas de hackers que
           podem ser prejudiciais futuramente, foi pensando na sua tranqüilidade
           que a nossa empresa desenvolveu um programa para detectar o nível de
           vulnerabilidade nos sistemas de nossos clientes.</p>
@@ -105,71 +111,70 @@
             <span class="text-muted">24hrs</span>
           </h2>
           <p class="lead">Ninguém está livre de ficar na mira de pessoas mal intencionadas na web,
-          foi pensando nesta hipótese que a WIT Solutions, desenvolveu o melhor
+          foi pensando nesta hipótese que a Wit Solutions, desenvolveu o melhor
           sistema de monitoramento, com profissionais com uma visão sobre o que
           está acontecendo em todo o sistema, além de estarem sempre fazendo
           uma varredura completa no sistema de segurança, nossos clientes
           sempre serão informado de forma IMEDIATA quando algo de errado é
-          encontrado, com a mesma velocidade que o problema é encontrado, vem
+          encontrado, com a mesma velocidade vem
           a solução com nossos coordenadores de rede, assim não só passamos o
           problema a quem de fato interessa, mas sim também a solução e os
           procedimentos a seguir.</p>
           <hr class="featurette-divider">
       </div>
-      <footer class="container py-5 bg-light">
-        <div class="row">
-          <div class="col-12 col-md">
-            <small class="d-block mb-3 text-muted">&copy; Since 2020</small>
+      <div class="container-fluid footer">
+        <footer class="container footer py-3">
+          <div class="row">
+            <div class="col-6 col-md">
+              <h5 class="text-light">Features</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary" href="#">Segurança</a></li>
+                <li><a class="link-secondary" href="#">Web</a></li>
+                <li><a class="link-secondary" href="#">Firewall</a></li>
+                <li><a class="link-secondary" href="#">Para desenvolvedores</a></li>
+                <li><a class="link-secondary" href="#">Data center</a></li>
+                <li><a class="link-secondary" href="#">Link up</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5 class="text-light">Resources</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary" href="#">Planos</a></li>
+                <li><a class="link-secondary" href="#">Contatos</a></li>
+                <li><a class="link-secondary" href="#">Sobre</a></li>
+                <li><a class="link-secondary" href="#">Compras</a></li>
+              </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5 class="text-light">About</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary" href="#">Equipe</a></li>
+                  <li><a class="link-secondary" href="#">Localizações</a></li>
+                  <li><a class="link-secondary" href="#">Privacidade</a></li>
+                  <li><a class="link-secondary" href="#">Termos</a></li>
+                </ul>
+              </div>
+              <div class="col-6 col-md">
+                <h5 class="text-light">Redes Sociais</h5>
+                <ul class="list-unstyled text-small">
+                  <li><a class="link-secondary center" href="#" title="Facebook"><img src="facebook.png" class="icon"></a></li>
+                  <li><a class="link-secondary center" href="#" title="Instagram"><img src="instagram.png" class="icon"></a></li>
+                  <li><a class="link-secondary center" href="#" title="Whatsapp"><img src="wpp.png" class="icon"></a></li>
+                  <li><a class="link-secondary center" href="#" title="Twitter"><img src="twitter.png" class="icon"></a></li>
+                </ul>
+              </div>
           </div>
-          <div class="col-6 col-md">
-            <h5>Features</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary" href="#">Coisas legais</a></li>
-              <li><a class="link-secondary" href="#">Recurso aleatório</a></li>
-              <li><a class="link-secondary" href="#">Recurso de equipe</a></li>
-              <li><a class="link-secondary" href="#">Para desenvolvedores</a></li>
-              <li><a class="link-secondary" href="#">Outros</a></li>
-              <li><a class="link-secondary" href="#">Última vez</a></li>
-            </ul>
-          </div>
-          <div class="col-6 col-md">
-            <h5>Resources</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="link-secondary" href="#">Nome do recurso</a></li>
-              <li><a class="link-secondary" href="#">Recurso</a></li>
-              <li><a class="link-secondary" href="#">Outro recurso</a></li>
-              <li><a class="link-secondary" href="#">Recurso final</a></li>
-            </ul>
-            </div>
-            <div class="col-6 col-md">
-              <h5>Resources</h5>
-              <ul class="list-unstyled text-small">
-                <li><a class="link-secondary" href="#">O negócio</a></li>
-                <li><a class="link-secondary" href="#">Educação</a></li>
-                <li><a class="link-secondary" href="#">Governo</a></li>
-                <li><a class="link-secondary" href="#">Jogos</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-md">
-              <h5>About</h5>
-              <ul class="list-unstyled text-small">
-                <li><a class="link-secondary" href="#">Equipe</a></li>
-                <li><a class="link-secondary" href="#">Localizações</a></li>
-                <li><a class="link-secondary" href="#">Privacidade</a></li>
-                <li><a class="link-secondary" href="#">Termos</a></li>
-              </ul>
-            </div>
-            <div class="col-6 col-md">
-              <h5>Redes Sociais</h5>
-              <ul class="list-unstyled text-small">
-                <li><a class="link-secondary center" href="#"><img src="facebook.png" class="icon"></a></li>
-                <li><a class="link-secondary center" href="#"><img src="instagram.png" class="icon"></a></li>
-                <li><a class="link-secondary center" href="#"><img src="wpp.png" class="icon"></a></li>
-                <li><a class="link-secondary center" href="#"><img src="twitter.png" class="icon"></a></li>
-              </ul>
-            </div>
+        </footer>
+      </div>
+      <div class="container-fluid bg-dark">
+        <p class="text-light centro p-3">Wit Solutions CRM. | CNPJ 54.321.458/0001-03</p>
+        <p class="text-light centro p-3">Av. Tietê 2141, Torre E 10º andar - São paulo</p>
+        <p class="text-light centro p-3">Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</p>
+        <div class="container">
+          <hr class="featurette-divider bg-light">
         </div>
-      </footer>
+        <p class="text-light centro py-3">&copy 2020, todos os direitos reservados</p>
+      </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
