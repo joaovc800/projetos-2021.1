@@ -20,7 +20,7 @@
     <header class="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid menu">
-          <a class="navbar-brand" href="index.html" title="Home">Wit Solutions</a>
+          <a class="navbar-brand" href="index.php" title="Home">Wit Solutions</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
@@ -36,7 +36,7 @@
                 <a class="nav-link" aria-current="page" href="#">Serviços e suporte</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="planos.html">Planos</a>
+                <a class="nav-link" aria-current="page" href="planos.php">Planos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">COVID-19</a>
