@@ -122,8 +122,8 @@
           procedimentos a seguir.</p>
           <hr class="featurette-divider">
       </div>
-      <div class="container-fluid rodape">
-        <footer class="container rodape py-3">
+      <div class="container-fluid" style="background-color: #293d55">
+        <footer class="container py-3" style="background-color: #293d55">
           <div class="row">
             <div class="col-6 col-md">
               <h5 class="text-light">Features</h5>
