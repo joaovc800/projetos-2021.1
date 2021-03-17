@@ -45,10 +45,10 @@ color: #0d6efd!important;
 .main-btn:hover{
   color:#fff;
   background-color: transparent;
-  border-color: #b99758;
+  border-color: #b99758;;
 }
 .carousel-indicators .active{
-  background-color: #b99758
+  background-color: #b99758;
 }
 .icon{
   width: 24px;
@@ -58,9 +58,9 @@ color: #0d6efd!important;
   left: 15%;
 }
 .footer{
-  background-color: #293d55 !important
+  background-color: #293d55 !important;
 }
 .centro{
   text-align: center;
-  font-size: 13px
+  font-size: 13px;
 }
