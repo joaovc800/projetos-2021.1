@@ -2,6 +2,9 @@
   position: relative;
   left: 1%;
 }
+.nav-link:hover{
+color: #0d6efd !important;
+}
 .container-fluid{
   padding:0px !important;
 }
@@ -52,5 +55,12 @@
 }
 .center {
   position: relative;
-  left: 23%;
+  left: 15%;
+}
+.footer{
+  background-color: #293d55 !important
+}
+.centro{
+  text-align: center;
+  font-size: 13px
 }
