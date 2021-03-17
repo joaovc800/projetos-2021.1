@@ -50,10 +50,10 @@ color: #0d6efd !important;
 .carousel-indicators .active{
   background-color: #b99758
 }
-.figure-img {
-  width: 24px !important;
-  position: relative !important;
-  left: 15px !important;
+.icon{
+  width: 24px;
+  position: relative;
+  left: 15px;
 }
 .center {
   position: relative !important;
