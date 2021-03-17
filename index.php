@@ -119,7 +119,6 @@
       <footer class="container py-5 bg-light">
         <div class="row">
           <div class="col-12 col-md">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
             <small class="d-block mb-3 text-muted">&copy; Since 2020</small>
           </div>
           <div class="col-6 col-md">
@@ -128,7 +127,7 @@
               <li><a class="link-secondary" href="#">Coisas legais</a></li>
               <li><a class="link-secondary" href="#">Recurso aleatório</a></li>
               <li><a class="link-secondary" href="#">Recurso de equipe</a></li>
-              <li><a class="link-secondary" href="#">Coisas para desenvolvedores</a></li>
+              <li><a class="link-secondary" href="#">Para desenvolvedores</a></li>
               <li><a class="link-secondary" href="#">Outros</a></li>
               <li><a class="link-secondary" href="#">Última vez</a></li>
             </ul>
@@ -158,6 +157,15 @@
                 <li><a class="link-secondary" href="#">Localizações</a></li>
                 <li><a class="link-secondary" href="#">Privacidade</a></li>
                 <li><a class="link-secondary" href="#">Termos</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-md">
+              <h5>Redes Sociais</h5>
+              <ul class="list-unstyled text-small">
+                <li><a class="link-secondary center" href="#"><img src="facebook.png" class="icon"></a></li>
+                <li><a class="link-secondary center" href="#"><img src="instagram.png" class="icon"></a></li>
+                <li><a class="link-secondary center" href="#"><img src="wpp.png" class="icon"></a></li>
+                <li><a class="link-secondary center" href="#"><img src="twitter.png" class="icon"></a></li>
               </ul>
             </div>
         </div>
