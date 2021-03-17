@@ -167,16 +167,16 @@
         <hr class="featurette-divider bg-light">
       </div>
       <div class="container-fluid bg-dark">
-        <p class="text-light centro p-3">Wit Solutions CRM. | CNPJ 54.321.458/0001-03</p>
-        <p class="text-light centro p-3">Av. Tietê 2141, Torre E 10º andar - São paulo</p>
-        <p class="text-light centro p-3">Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</p>
         <div class="container">
-          <hr class="featurette-divider bg-light">
+          <p class="text-light text-center p-3">Wit Solutions CRM. | CNPJ 54.321.458/0001-03</p>
+          <p class="text-light text-center p-3">Av. Tietê 2141, Torre E 10º andar - São paulo</p>
+          <p class="text-light text-center p-3">Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</p>
+          <div class="container">
+            <hr class="featurette-divider bg-light">
+          </div>
+          <p class="text-light text-center py-3">&copy 2020, todos os direitos reservados</p>
         </div>
-        <p class="text-light centro py-3">&copy 2020, todos os direitos reservados</p>
       </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
-
-
