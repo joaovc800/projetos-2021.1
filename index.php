@@ -157,10 +157,10 @@
               <div class="col-6 col-md d-inline">
                 <h5 class="text-light">Redes Sociais</h5>
                 <ul class="list-unstyled text-small">
-                  <li><a class="link-secondary center" href="#" title="Facebook"><img src="facebook.png" class="icon"></a></li>
-                  <li><a class="link-secondary center" href="#" title="Instagram"><img src="instagram.png" class="icon"></a></li>
-                  <li><a class="link-secondary center" href="#" title="Whatsapp"><img src="wpp.png" class="icon"></a></li>
-                  <li><a class="link-secondary center" href="#" title="Twitter"><img src="twitter.png" class="icon"></a></li>
+                  <li><a class="link-secondary center" href="#" title="Facebook"><img src="facebook.png" class="figure-img img-fluid"></a></li>
+                  <li><a class="link-secondary center" href="#" title="Instagram"><img src="instagram.png" class="figure-img img-fluid"></a></li>
+                  <li><a class="link-secondary center" href="#" title="Whatsapp"><img src="wpp.png" class="figure-img img-fluid"></a></li>
+                  <li><a class="link-secondary center" href="#" title="Twitter"><img src="twitter.png" class="figure-img img-fluid"></a></li>
                 </ul>
               </div>
           </div>
@@ -168,13 +168,13 @@
       </div>
       <div class="container-fluid bg-dark">
         <div class="container">
-          <p class="text-light text-center pqn p-3">Wit Solutions CRM. | CNPJ 54.321.458/0001-03</p>
-          <p class="text-light text-center pqn p-3">Av. Tietê 2141, Torre E 10º andar - São paulo</p>
-          <p class="text-light text-center pqn p-3">Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</p>
+          <p class="text-light text-center p-3">Wit Solutions CRM. | CNPJ 54.321.458/0001-03</p>
+          <p class="text-light text-center p-3">Av. Tietê 2141, Torre E 10º andar - São paulo</p>
+          <p class="text-light text-center p-3">Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</p>
           <div class="container">
             <hr class="featurette-divider bg-light">
           </div>
-          <p class="text-light text-center pqn py-3">&copy 2020, todos os direitos reservados</p>
+          <p class="text-light text-center py-3">&copy 2020, todos os direitos reservados</p>
         </div>
       </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
