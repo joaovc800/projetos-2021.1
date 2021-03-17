@@ -80,7 +80,7 @@
                 <div class="carousel-caption text-start">
                   <h1>Planos</h1>
                   <p>Sua empresa está segura? adquira já seu pacote de plano mais seguro!</p>
-                  <p><a class="btn btn-lg btn-primary" href="#">Planos</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="planos.php">Planos</a></p>
                 </div>
               </div>
             </div>
