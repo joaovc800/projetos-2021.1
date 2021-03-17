@@ -47,3 +47,10 @@
 .carousel-indicators .active{
   background-color: #b99758
 }
+.icon{
+  width: 24px;
+}
+.center {
+  position: relative;
+  left: 23%;
+}
