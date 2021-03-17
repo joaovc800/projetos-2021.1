@@ -63,7 +63,7 @@
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
               <li>Suporte por e-mail</li>
-              <li>central de antedimento</li>
+              <li>central de atendimento</li>
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-outline-success">Compre agora</button>
           </div>
