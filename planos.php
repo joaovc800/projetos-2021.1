@@ -54,8 +54,8 @@
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
           <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 fw-normal">Community</h4>
+          <div class="card-header bg-dark">
+            <h4 class="my-0 fw-normal text-light">Community</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$50 <small class="text-muted">/ dólar</small></h1>
@@ -63,7 +63,7 @@
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
               <li>Suporte por e-mail</li>
-              <li>central de atendimento</li>
+              <li>central de antedimento</li>
             </ul>
             <button type="button" class="w-100 btn btn-lg btn-outline-success">Compre agora</button>
           </div>
@@ -71,8 +71,8 @@
         </div>
         <div class="col">
           <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 fw-normal">Pro</h4>
+          <div class="card-header bg-dark">
+            <h4 class="my-0 fw-normal text-light">Pro</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$120 <small class="text-muted">/ dólar</small></h1>
@@ -90,8 +90,8 @@
         </div>
         <div class="col">
           <div class="card mb-4 shadow-sm">
-          <div class="card-header">
-            <h4 class="my-0 fw-normal">Enterprise</h4>
+          <div class="card-header bg-dark">
+            <h4 class="my-0 fw-normal text-light">Enterprise</h4>
           </div>
           <div class="card-body">
             <h1 class="card-title pricing-card-title">$200 <small class="text-muted">/ dólar</small></h1>
@@ -110,6 +110,7 @@
         </div>
         </div>
       </div>
+      
     </main>
       <div class="container-fluid" style="background-color: #293d55">
         <footer class="container py-3" style="background-color: #293d55">
