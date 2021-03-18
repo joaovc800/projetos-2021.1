@@ -30,7 +30,7 @@
                 <a class="nav-link" aria-current="page" href="#">Sobre</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Contato</a>
+                <a class="nav-link" aria-current="page" href="contato.php">Contato</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">Serviços e suporte</a>
@@ -84,7 +84,7 @@
               <li>Suporte por e-mail</li>
               <li>Central de atendimento</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-success">Compre agora</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-success">Compre agora</button>
           </div>
         </div>
         </div>
@@ -105,7 +105,7 @@
               <li>Suporte por e-mail</li>
               <li>Central de atendimento</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-success">Compre agora</button>
+            <button type="button" class="w-100 btn btn-lg btn-outline-success">Compre agora</button>
           </div>
         </div>
         </div>
@@ -144,26 +144,26 @@
                   <li><a class="link-secondary" href="#">Termos</a></li>
                 </ul>
               </div>
-              <div class="col-6 col-md d-inline">
-                <h5 class="text-light">Redes Sociais</h5>
-                <ul class="list-unstyled text-small">
-                  <li><a class="link-secondary center" href="#" title="Facebook"><img src="facebook.png" class="icon"></a></li>
-                  <li><a class="link-secondary center" href="#" title="Instagram"><img src="instagram.png" class="icon"></a></li>
-                  <li><a class="link-secondary center" href="#" title="Whatsapp"><img src="wpp.png" class="icon"></a></li>
-                  <li><a class="link-secondary center" href="#" title="Twitter"><img src="twitter.png" class="icon"></a></li>
+              <div class="col-6 col-md ">
+                <h5 class="text-light">Social networks</h5>
+                <ul class="list-inline text-small">
+                  <li class="list-inline-item"><a class="link-secondary " href="#" title="Facebook"><img src="facebook.png" class="icon"></a></li>
+                  <li class="list-inline-item"><a class="link-secondary " href="#" title="Instagram"><img src="instagram.png" class="icon"></a></li>
+                  <li class="list-inline-item"><a class="link-secondary " href="#" title="Whatsapp"><img src="wpp.png" class="icon"></a></li>
+                  <li class="list-inline-item"><a class="link-secondary " href="#" title="Twitter"><img src="twitter.png" class="icon"></a></li>
                 </ul>
               </div>
           </div>
       </div>
-      <div class="container-fluid bg-dark">
+      <div class="container-fluid mt-auto py-3 bg-dark">
         <div class="container">
-          <p class="text-light text-center p-3">Wit Solutions CRM. | CNPJ 54.321.458/0001-03</p>
-          <p class="text-light text-center p-3">Av. Tietê 2141, Torre E 10º andar - São paulo</p>
-          <p class="text-light text-center p-3">Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</p>
+          <p class="text-light text-center p-2"><small>Wit Solutions CRM. | CNPJ 54.321.458/0001-03</small></p>
+          <p class="text-light text-center p-2"><small>Av. Tietê 2141, Torre E 10º andar - São paulo</small></p>
+          <p class="text-light text-center p-2"><small>Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</small></p>
           <div class="container">
             <hr class="featurette-divider bg-light">
           </div>
-          <p class="text-light text-center py-3">&copy 2020, todos os direitos reservados</p>
+          <p class="text-light text-center p-2"><small>&copy 2020, todos os direitos reservados</small></p>
         </div>
       </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
