@@ -49,7 +49,7 @@
     <main class="container">
       <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
         <h1 class="display-4">Preços</h1>
-        <p class="lead">Confira aqui os melhores preços e beneficios do melhor site de web segurança. Temos sempre o melhor plano para você e sua empresa, lembre-se se seu negocio ou ação não estiver seguro contrate já! Wit Solutions cada solução é única.</p>
+        <p class="lead">Confira aqui os melhores preços e beneficios do melhor site de web segurança. Temos sempre o melhor plano para você e sua empresa, lembre-se seu negocio ou ação não estiver seguro contrate já! Wit Solutions cada solução é única.</p>
       </div>
       <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
