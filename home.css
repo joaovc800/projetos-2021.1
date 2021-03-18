@@ -52,10 +52,4 @@ color: #0d6efd !important;
 }
 .icon{
   width: 24px;
-  position: relative;
-  left: 15px;
-}
-.center {
-  position: relative !important;
-  left: 15% !important;
 }
