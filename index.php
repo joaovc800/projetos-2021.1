@@ -57,7 +57,7 @@
             <div class="carousel-item active">
               <img src="app.png" alt="duas pessoas com um notebook">
               <div class="container">
-                <div class="carousel-caption text-end">
+                <div class="carousel-caption text-start">
                   <h1>Wit Solutions</h1>
                   <p>Venha conhecer a melhor empresa de web segurança</p>
                   <p><a class="btn btn-lg btn-primary" href="#">Sobre</a></p>
@@ -67,7 +67,7 @@
             <div class="carousel-item">
               <img src="negocio.png" alt="ações subindo">
               <div class="container">
-                <div class="carousel-caption">
+                <div class="carousel-caption text-start">
                   <h1>Contato</h1>
                   <p>Está com duvidas ainda? entre em contato<span class=" fw-bold"> agora mesmo</span></p>
                   <p><a class="btn btn-lg btn-primary" href="contato.php">Contato</a></p>
