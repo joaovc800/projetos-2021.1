@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Wit Solutions | Planos</title>
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
     <meta property="og:image" content="logo1.0.png">
     <meta property="og:description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
@@ -65,7 +65,13 @@
               <li>Suporte por e-mail</li>
               <li>central de antedimento</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-success">Compre agora</button>
+            <form action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
+                <script
+                src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
+                data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
+                data-transaction-amount="200.00">
+                </script>
+            </form>
           </div>
         </div>
         </div>
@@ -84,7 +90,13 @@
               <li>Suporte por e-mail</li>
               <li>Central de atendimento</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-success">Compre agora</button>
+            <form action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
+                <script
+                src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
+                data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
+                data-transaction-amount="200.00">
+                </script>
+            </form>
           </div>
         </div>
         </div>
@@ -105,17 +117,18 @@
               <li>Suporte por e-mail</li>
               <li>Central de atendimento</li>
             </ul>
-            <button type="button" class="w-100 btn btn-lg btn-outline-success">Compre agora</button>
+            <form action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
+                <script
+                src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
+                data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
+                data-transaction-amount="200.00">
+                </script>
+            </form>
           </div>
         </div>
         </div>
       </div>
-      <form action="https://wit-solutions.herokuapp.com/controllers/paymentController.php" method="POST">
-        <script
-            src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
-            data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
-            data-transaction-amount="100.00">
-        </script>
+    </form>
     </main>
       <div class="container-fluid" style="background-color: #293d55">
         <footer class="container py-3" style="background-color: #293d55">
