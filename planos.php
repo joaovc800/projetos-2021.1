@@ -163,7 +163,7 @@
           <div class="container">
             <hr class="featurette-divider bg-light">
           </div>
-          <p class="text-light text-center p-2"><small>&copy 2020, todos os direitos reservados</small></p>
+          <p class="text-light text-center p-2"><small>&copy 2021, todos os direitos reservados</small></p>
         </div>
       </div>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
