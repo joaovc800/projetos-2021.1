@@ -58,7 +58,7 @@
             <h4 class="my-0 fw-normal text-light">Community</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$50 <small class="text-muted">/ dólar</small></h1>
+            <h1 class="card-title pricing-card-title">$50 <small class="text-muted">USD*</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
@@ -75,7 +75,7 @@
             <h4 class="my-0 fw-normal text-light">Pro</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$120 <small class="text-muted">/ dólar</small></h1>
+            <h1 class="card-title pricing-card-title">$120 <small class="text-muted">USD*</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
@@ -94,7 +94,7 @@
             <h4 class="my-0 fw-normal text-light">Enterprise</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$200 <small class="text-muted">/ dólar</small></h1>
+            <h1 class="card-title pricing-card-title">$200 <small class="text-muted">USD*</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
