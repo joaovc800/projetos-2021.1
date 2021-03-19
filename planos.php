@@ -110,7 +110,12 @@
         </div>
         </div>
       </div>
-      
+      <form action="https://wit-solutions.herokuapp.com/controllers/paymentController.php" method="POST">
+        <script
+            src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
+            data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
+            data-transaction-amount="100.00">
+        </script>
     </main>
       <div class="container-fluid" style="background-color: #293d55">
         <footer class="container py-3" style="background-color: #293d55">
