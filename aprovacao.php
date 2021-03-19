@@ -47,11 +47,15 @@
       </nav>
     </header>
     <main class="px-3">
-        <h1>Dados  em  análise</h1>
-        <p class="lead">Por gentileza aguarde entre 24 a 48 horas para verificarmos a  aprovação do pagamennto</p>
-        <p class="lead">
-        <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Rastreio</a>
-        </p>
+        <h1 class="text-center display-4">Dados  em  análise</h1>
+        <p class="lead text-center">Por gentileza aguarde entre 24 a 48 horas para verificarmos a  aprovação do pagamennto</p>
+        <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
+            <div class="col-md-6 px-0">
+                <h1 class="display-4 fst-italic">Aqui você verá seu rastrio</h1>
+                <p class="lead my-3">Com a wit solutions temos o rastraios dos equipametos que irão chegar na sua empresa</p>
+                <p class="lead mb-0"><a href="#" class="text-white fw-bold">confira aqui</a></p>
+            </div>
+        </div>
     </main>
       <div class="container-fluid" style="background-color: #293d55">
         <footer class="container py-3" style="background-color: #293d55">
