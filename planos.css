@@ -1,0 +1,10 @@
+.nav-link:hover{
+color: #0d6efd !important;
+}
+.container-fluid{
+  padding:0px !important;
+}
+
+.icon{
+  width: 26px;
+}
