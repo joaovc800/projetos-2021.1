@@ -60,7 +60,7 @@
                 <div class="carousel-caption text-start">
                   <h1>Wit Solutions</h1>
                   <p>Venha conhecer a melhor empresa de web segurança</p>
-                  <p><a class="btn btn-lg btn-primary" href="#">Sobre</a></p>
+                  <p><a class="btn btn-lg btn-primary" href="sobre.php">Sobre</a></p>
                 </div>
               </div>
             </div>
