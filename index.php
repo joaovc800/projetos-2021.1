@@ -27,7 +27,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Sobre</a>
+                <a class="nav-link" aria-current="page" href="sobre.php">Sobre</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="contato.php">Contato</a>
@@ -39,7 +39,7 @@
                 <a class="nav-link" aria-current="page" href="planos.php">Planos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">COVID-19</a>
+                <a class="nav-link" aria-current="page" href="covid-19.php">COVID-19</a>
               </li>
             </ul>
           </div>
