@@ -46,7 +46,7 @@ session_start()
                     if($_SESSION['usuario_invalido']):
                     ?>
                     <div class="notification is-danger">
-                        <p>Nenhum campo pode ficar vázio/p>
+                        <p>Nenhum campo pode ficar vázio</p>
                     </div>
                     <?php
                     endif;
