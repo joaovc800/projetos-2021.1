@@ -46,6 +46,9 @@
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="covid-19.php">COVID-19</a>
               </li>
+               <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="logout.php">Sair</a>
+              </li>
             </ul>
           </div>
         </div>
