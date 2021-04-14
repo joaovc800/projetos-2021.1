@@ -4,7 +4,7 @@ include("conexao.php");
 
 $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
 $usuario = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
-$senha = mysqli_real_escape_string($conexao, trim(($_POST['senha']));
+$senha = mysqli_real_escape_string($conexao, trim($_POST['senha']));
 
 $sql = "select count(*) as total from usuarios where username = '$usuario'";
 $result = mysqli_query($conexao, $sql);
