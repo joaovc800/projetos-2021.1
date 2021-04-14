@@ -42,6 +42,16 @@ session_start()
                     endif;
                     unset($_SESSION['usuario_existe'])
                     ?>
+                    <?php
+                    if($_SESSION['usuario_invalido']):
+                    ?>
+                    <div class="notification is-danger">
+                        <p>Nenhum campo pode ficar sozinho</p>
+                    </div>
+                    <?php
+                    endif;
+                    unset($_SESSION['usuario_invalido'])
+                    ?>
                     <div class="box">
                         <form action="cadastrar.php" method="POST">
                             <div class="field">
