@@ -2,6 +2,12 @@
 session_start();
 include("conexao.php");
 
+if(empty($_POST['nome']) || empty($_POST['usuario']) || empty($_POST['senha'])){
+	$_SESSION['usuario_invalido'] = true;
+	header('Location: criarconta.php');
+    exit();
+}
+
 $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
 $usuario = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
 $senha = mysqli_real_escape_string($conexao, trim($_POST['senha']));
