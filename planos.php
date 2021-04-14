@@ -66,7 +66,7 @@
             <h4 class="my-0 fw-normal text-light">Community</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$50 <small class="text-muted">USD*</small></h1>
+            <h1 class="card-title pricing-card-title">R$150 <small class="text-muted">BRL*</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
@@ -77,7 +77,7 @@
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
-                data-transaction-amount="50.00"
+                data-transaction-amount="150.00"
                 data-button-label="Comprar">
                 </script>
             </form>
@@ -90,7 +90,7 @@
             <h4 class="my-0 fw-normal text-light">Pro</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$120 <small class="text-muted">USD*</small></h1>
+            <h1 class="card-title pricing-card-title">R$260 <small class="text-muted">BRL*</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
@@ -103,7 +103,7 @@
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
-                data-transaction-amount="120.00"
+                data-transaction-amount="260.00"
                 data-button-label="Comprar">
                 </script>
             </form>
@@ -116,7 +116,7 @@
             <h4 class="my-0 fw-normal text-light">Enterprise</h4>
           </div>
           <div class="card-body">
-            <h1 class="card-title pricing-card-title">$200 <small class="text-muted">USD*</small></h1>
+            <h1 class="card-title pricing-card-title">R$480 <small class="text-muted">BRL*</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
               <li>Suporte 24 horas</li>
               <li>Firewall</li>
@@ -131,7 +131,7 @@
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
-                data-transaction-amount="200.00"
+                data-transaction-amount="480.00"
                 data-button-label="Comprar"
                 data-summary-product-label="Enterpreise ">
                 </script>
