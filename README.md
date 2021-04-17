@@ -19,11 +19,11 @@ A aplicação será feita na Cloud do Heroku [Wit Solutions](https://wit-solutio
 
 ### Segue algumas imagens
 
-#### tela de login
+#### Tela de login
 ![](login.png)
 
-#### planos
+#### Planos
 ![](planos.png)
 
 ### API mercado pago
-![](api.png)
+[](api.png)
