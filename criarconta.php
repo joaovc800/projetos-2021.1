@@ -11,8 +11,8 @@ session_start()
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cadastrar</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-   
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 
 <body>
@@ -64,27 +64,27 @@ session_start()
                     ?>
                     <div class="box">
                         <form action="cadastrar.php" method="POST">
-                            <div class="field input-block">
-                                <div class="control input-block">
+                            <div class="field">
+                                <div class="control">
                                     <input name="nome" type="text" class="input is-large" placeholder="Nome" autofocus>
                                 </div>
                             </div>
-                            <div class="field input-block">
+                            <div class="field">
                                 <div class="control input-block">
                                     <input name="usuario" type="text" class="input is-large" placeholder="Usuário">
                                 </div>
                             </div>
-                            <div class="field input-block">
-                                <div class="control input-block">
+                            <div class="field">
+                                <div class="control">
                                     <input name="senha1" class="input is-large" type="password" placeholder="Senha">
                                 </div>
                             </div>
-                            <div class="field input-block">
-                                <div class="control input-block">
+                            <div class="field">
+                                <div class="control">
                                     <input name="senha2" class="input is-large" type="password" placeholder="Confirmar senha">
                                 </div>
                             </div>
-                            <button type="submit" class=" btn-login button is-block is-link is-large is-fullwidth">Cadastrar</button>
+                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
                         </form>
                     </div>
                 </div>
