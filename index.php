@@ -15,7 +15,7 @@
         <form action="login.php" method="POST">
           <div class="input-block">
             <label for="login-email">Usuário</label>
-            <input name ="usuario" type="email" id="login-email" />
+            <input name="usuario" type="text" id="login-email" />
           </div>
           <div class="input-block">
             <label for="login-password">Senha</label>
