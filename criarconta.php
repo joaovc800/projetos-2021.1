@@ -17,9 +17,9 @@ session_start()
 
 <body>
     <section class="hero is-success is-fullheight">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="column is-4 is-offset-4">
+        <div class="hero-body input-block">
+            <div class="container has-text-centered input-block">
+                <div class="column is-4 is-offset-4 input-block">
                     <h3 class="title has-text-grey">Sistema de Cadastro</h3>
                     <?php
                     if($_SESSION['status_cadastro']):
@@ -64,27 +64,27 @@ session_start()
                     ?>
                     <div class="box">
                         <form action="cadastrar.php" method="POST">
-                            <div class="field">
-                                <div class="control">
+                            <div class="field input-block">
+                                <div class="control input-block">
                                     <input name="nome" type="text" class="input is-large" placeholder="Nome" autofocus>
                                 </div>
                             </div>
-                            <div class="field">
-                                <div class="control">
+                            <div class="field input-block">
+                                <div class="control input-block">
                                     <input name="usuario" type="text" class="input is-large" placeholder="Usuário">
                                 </div>
                             </div>
-                            <div class="field">
-                                <div class="control">
+                            <div class="field input-block">
+                                <div class="control input-block">
                                     <input name="senha1" class="input is-large" type="password" placeholder="Senha">
                                 </div>
                             </div>
-                            <div class="field">
-                                <div class="control">
+                            <div class="field input-block">
+                                <div class="control input-block">
                                     <input name="senha2" class="input is-large" type="password" placeholder="Confirmar senha">
                                 </div>
                             </div>
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
+                            <button type="submit" class=" btn-login button is-block is-link is-large is-fullwidth">Cadastrar</button>
                         </form>
                     </div>
                 </div>
