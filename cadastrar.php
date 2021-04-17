@@ -2,7 +2,7 @@
 session_start();
 include("conexao.php");
 
-if(empty($_POST['nome']) || empty($_POST['usuario']) || empty($_POST['senha'])){
+if(empty($_POST['nome']) || empty($_POST['usuario']) || empty($_POST['senha1']) || empty($_POST['senha2'])){
 	$_SESSION['usuario_invalido'] = true;
 	header('Location: criarconta.php');
     exit();
