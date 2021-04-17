@@ -10,7 +10,7 @@
   }
   
   body {
-    background-color: #7159c1;
+    background-color: #fa771f;
     font-family: Roboto, Arial, sans-serif;
   }
   
@@ -20,8 +20,20 @@
     justify-content: center;
     align-items: center;
   }
-  
+  a{
+    position: relative;
+    top:2vh;
+    right: 1vh;
+    font-size: 14px;
+    color: #49bcca;
+    text-decoration: none;
+  }
+  a:hover{
+      text-decoration: underline;
+  }
   h1 {
+    position: relative;
+    top: 15vh;
     font-size: 32px;
     letter-spacing: 1px;
     margin: 20px 0;
@@ -29,6 +41,8 @@
   }
   
   form {
+    position: relative;
+    top: 15vh;
     margin: 20px 0;
     background-color: white;
     padding: 30px 25px;
@@ -41,7 +55,7 @@
   
   form .input-block label {
     font-size: 14px;
-    color: darkslateblue;
+    color: #49bcca;
   }
   
   form .input-block input {
@@ -50,17 +64,17 @@
     margin-top: 8px;
     padding: 7px;
     font-size: 16px;
-    color: #7159c1;
+    color: #49bcca;
     border-radius: 2px;
     border: 1px solid #ccddef;
-    outline-color: #7159c1;
+    outline-color: #49bcca;
   }
   
   form .btn-login {
     display: block;
     min-width: 120px;
     border: none;
-    background-color: #7159c1;
+    background-color: #49bcca;
     color: white;
     border-radius: 25px;
     margin: auto;
