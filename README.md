@@ -20,3 +20,4 @@ A aplicação será feita na Cloud do Heroku [Wit Solutions](https://wit-solutio
 ### Segue algumas imagens
 
 ![](login.png)
+![](planos.png)
