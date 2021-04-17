@@ -1,4 +1,4 @@
-const btnLogin = document.querySelector(".btn-login");
+/*const btnLogin = document.querySelector(".btn-login");
 const form = document.querySelector("form");
 
 btnLogin.addEventListener("click", event => {
@@ -33,7 +33,7 @@ form.addEventListener("animationend", event => {
     form.style.display = "none";
     document.querySelector("body").style.overflow = "none";
   }
-});
+});*/
 
 /* background squares */
 const ulSquares = document.querySelector("ul.squares");
