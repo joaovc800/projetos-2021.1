@@ -10,13 +10,7 @@ if(empty($_POST['nome']) || empty($_POST['usuario']) || empty($_POST['senha'])){
 
 $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
 $usuario = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
-$senha1 = mysqli_real_escape_string($conexao, trim($_POST['senha1']));
-$senha2 = mysqli_real_escape_string($conexao, trim($_POST['senha2']));
-
-if($senha1 != $senha2){
-    $_SESSION['senha_nao_corresponde'] = true;
-    header('Location: criarconta.php');
-}
+$senha = mysqli_real_escape_string($conexao, trim($_POST['senha']));
 
 $sql = "select count(*) as total from usuarios where username = '$usuario'";
 $result = mysqli_query($conexao, $sql);
