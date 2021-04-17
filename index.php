@@ -22,6 +22,7 @@
             <input name="senha" type="password" id="login-password" />
           </div>
           <button type="submit" class="btn-login">Login</button>
+          <a href="criarconta.php">cadastre-se</a>
         </form>
       </div>
     </section>
