@@ -77,6 +77,7 @@
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
+                data-summary-product-label="Community"
                 data-transaction-amount="150.00"
                 data-button-label="Comprar">
                 </script>
@@ -103,6 +104,7 @@
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
+                data-summary-product-label="Pro"
                 data-transaction-amount="260.00"
                 data-button-label="Comprar">
                 </script>
@@ -132,6 +134,7 @@
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
                 data-transaction-amount="480.00"
+                data-summary-product-label="Enterprise"
                 data-button-label="Comprar"
                 data-summary-product-label="Enterpreise ">
                 </script>
