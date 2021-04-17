@@ -78,7 +78,10 @@
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
                 data-summary-product-label="Community"
+                data-summary-product="150";
                 data-transaction-amount="150.00"
+                data-min-installments = 1
+                data-max-installments = 6
                 data-button-label="Comprar">
                 </script>
             </form>
