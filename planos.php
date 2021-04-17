@@ -135,7 +135,12 @@
                 data-button-label="Comprar"
                 data-summary-product-label="Enterpreise ">
                 </script>
+              <script
+  src="https://www.mercadopago.com.br/integrations/v1/web-payment-checkout.js"
+  data-preference-id="<?php echo $preference->id; ?>">
+</script>
             </form>
+            
           </div>
         </div>
         </div>
