@@ -12,7 +12,7 @@
       <h1>Login Wit Solutions</h1>
 
       <div class="form-wrapper">
-        <form>
+        <form action="login.php" method="POST">
           <div class="input-block">
             <label for="login-email">Usuário</label>
             <input name ="usuario" type="email" id="login-email" />
