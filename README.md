@@ -18,7 +18,7 @@ Projeto WEB feito em **HTML, CSS, Bootstrap, JS e PHP**, banco de dados usamos o
 A aplicação será feita na Cloud do Heroku [Wit Solutions](https://wit-solutions.herokuapp.com/)
 
 ## Imagens
-| Site | APi´s |
+| Site | APi's |
 |------|-------|
 |![](login.png)|![](api.png)|
 |![](planos.png)|![](chat.png)|
