@@ -66,7 +66,12 @@ session_start()
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <input name="senha" class="input is-large" type="password" placeholder="Senha">
+                                    <input name="senha1" class="input is-large" type="password" placeholder="Senha">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="senha2" class="input is-large" type="password" placeholder="Confirmar senha">
                                 </div>
                             </div>
                             <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
