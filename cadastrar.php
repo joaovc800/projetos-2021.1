@@ -29,7 +29,7 @@ if($row['total'] == 1) {
 	exit;
 }
 
-$sql = "INSERT INTO `heroku_3f91cda5aaca95a`.`usuarios` (id, nome, username, password) VALUES (NULL,'$nome', '$usuario', '$senha')";
+$sql = "INSERT INTO `heroku_3f91cda5aaca95a`.`usuarios` (id, nome, username, password) VALUES (NULL,'$nome', '$usuario', '$senha2')";
 if($conexao->query($sql) === TRUE) {
 	$_SESSION['status_cadastro'] = true;
 }
