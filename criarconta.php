@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Cadastrar</title>
     <link rel="stylesheet" href="style.css" />
-    
+    <script src="script.js"></script>
   </head>
   <body>
     <section class="form-section">
@@ -71,11 +71,10 @@
                 <input name="senha2" type="password" id="login-password" />
             </div>
           <button type="submit" class="btn-login">Cadastrar</button>
-          <a href="index.html">Voltar</a>
+          <a href="index.php">Voltar</a>
         </form>
       </div>
     </section>
     <ul class="squares"></ul>
-    <script src="script.js"></script>
   </body>
 </html>
