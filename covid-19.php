@@ -38,9 +38,6 @@
                 <a class="nav-link" aria-current="page" href="contato.php">Contato</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Serviços e suporte</a>
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="planos.php">Planos</a>
               </li>
               <li class="nav-item">
@@ -214,7 +211,7 @@
         <div class="container">
           <p class="text-light text-center p-2"><small>Wit Solutions CRM. | CNPJ 54.321.458/0001-03</small></p>
           <p class="text-light text-center p-2"><small>Av. Tietê 2141, Torre E 10º andar - São paulo</small></p>
-          <p class="text-light text-center p-2"><small>Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo e American Express) e boleto.</small></p>
+          <p class="text-light text-center p-2"><small>Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard e American Express)</small></p>
           <div class="container">
             <hr class="featurette-divider bg-light">
           </div>
