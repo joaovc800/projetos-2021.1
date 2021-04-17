@@ -16,6 +16,7 @@ $senha2 = mysqli_real_escape_string($conexao, trim($_POST['senha2']));
 if($senha1 != $senha2){
 	$_SESSION['senha_nao_corresponde'] = true;
 	header('Location: criarconta.php');
+	return;
 }
 	
 
