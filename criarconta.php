@@ -20,7 +20,7 @@ session_start()
         <div class="hero-body input-block">
             <div class="container has-text-centered input-block">
                 <div class="column is-4 is-offset-4 input-block">
-                    <h3 class="title has-text-grey">Sistema de Cadastro</h3>
+                    <h3 class="title has-text-grey">Cadastre-se</h3>
                     <?php
                     if($_SESSION['status_cadastro']):
                     ?>
