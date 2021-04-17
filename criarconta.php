@@ -11,8 +11,7 @@ session_start()
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cadastrar</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/login.css">
+   
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
