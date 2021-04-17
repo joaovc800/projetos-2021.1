@@ -91,6 +91,7 @@ session_start()
             </div>
         </div>
     </section>
+    <ul class="squares"></ul>
 </body>
 
 </html>
