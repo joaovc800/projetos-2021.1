@@ -28,5 +28,6 @@
       </div>
     </section>
     <ul class="squares"></ul>
+    <script src="script.js"></script>
   </body>
 </html>
