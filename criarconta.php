@@ -52,6 +52,16 @@ session_start()
                     endif;
                     unset($_SESSION['usuario_invalido'])
                     ?>
+                    <?php
+                    if($_SESSION['senha_nao_corresponde']):
+                    ?>
+                    <div class="notification is-danger">
+                        <p>Senhas não correspondem, por favor tente novamente!</p>
+                    </div>
+                    <?php
+                    endif;
+                    unset($_SESSION['senha_nao_corresponde'])
+                    ?>
                     <div class="box">
                         <form action="cadastrar.php" method="POST">
                             <div class="field">
