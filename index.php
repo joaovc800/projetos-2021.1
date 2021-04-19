@@ -12,11 +12,17 @@
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	
+	<style>
+		.container-login100 {
+			backgound-image:linear-gradiente(to left, #D9880D,#FF9800,#208591,#33B6C4,#40D6E8);	
+		}
+	</style>
 </head>
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100" style="!important backgound-image{linear-gradiente(to left, #D9880D,#FF9800,#208591,#33B6C4,#40D6E8)}">
+		<div class="container-login100">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="images/img-01.png" style="border-radius:300px;" alt="IMG">
