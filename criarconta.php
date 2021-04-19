@@ -16,7 +16,7 @@ session_start()
 </head>
 
 <body>
-    <section class="hero is-success">
+    <section class="hero is-success is-fullheight">
         <div class="hero-body input-block" style="background-image:linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);">
             <div class="container has-text-centered input-block">
                 <div class="column is-4 is-offset-4 input-block">
@@ -91,7 +91,6 @@ session_start()
             </div>
         </div>
     </section>
-    <ul class="squares"></ul>
     <script src="script.js"></script>
 </body>
 
