@@ -1,10 +1,3 @@
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
-
 @font-face {
   font-family: Poppins-Regular;
   src: url('../fonts/poppins/Poppins-Regular.ttf'); 
@@ -156,7 +149,7 @@ iframe {
   margin: 0 auto;
 }
 
-.container-login {
+.container-login100 {
   width: 100%;  
   min-height: 100vh;
   display: -webkit-box;
@@ -168,11 +161,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #FF9800;
-  background: -webkit-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
-  background: -o-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
-  background: -moz-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
-  background: linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
+  background: #9053c7;
+  background: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+  background: linear-gradient(-135deg, #c850c0, #4158d0);
 }
 
 .wrap-login100 {
@@ -332,7 +325,7 @@ iframe {
   width: 100%;
   height: 50px;
   border-radius: 25px;
-  background: #3ed0e1;
+  background: #57b846;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -349,12 +342,10 @@ iframe {
 }
 
 .login100-form-btn:hover {
-  background-image:linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
--webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
+  background: #333333;
 }
+
+
 
 /*------------------------------------------------------------------
 [ Responsive ]*/
