@@ -88,7 +88,7 @@ session_start()
                             <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
                             <div class="field">
                                 <div class="control">
-                                     <a href="index.php" class="button is-danger is-link is-large is-fullwidth">Voltar</a>
+                                     <button href="index.php" class="button is-danger is-link is-large is-fullwidth">Voltar</button>
                                 </div>
                             </div>
                         </form>
