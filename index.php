@@ -35,7 +35,7 @@
 		}
 		.login-gradiente:hover{
 			background-image:linear-gradient(135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
-			transition: background-image 0.5s;
+			transition: all 0.5s;
 			  -webkit-transition: all 0.4s;
 			  -o-transition: all 0.4s;
 			  -moz-transition: all 0.4s;
