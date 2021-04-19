@@ -13,6 +13,10 @@
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="shortcut icon" href="wit.png"/>
+	<meta name="description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
+	<meta property="og:image" content="wit.png">
+	<meta property="og:description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
+	<meta property="og:title" content="Wit Solutions
 </head>
 <body>
 	
