@@ -12,37 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<style>
-		.login-gradiente{
-		 font-family: Montserrat-Bold;
-		  font-size: 15px;
-		  line-height: 1.5;
-		  color: #fff;
-		  text-transform: uppercase;
-
-		  width: 100%;
-		  height: 50px;
-		  border-radius: 25px;
-		  background: #D9880D;
-		  display: -webkit-box;
-		  display: -webkit-flex;
-		  display: -moz-box;
-		  display: -ms-flexbox;
-		  display: flex;
-		  justify-content: center;
-		  align-items: center;
-		  padding: 0 25px;
-		}
-		.login-gradiente:hover{
-			background-image:linear-gradient(135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
-			transition: all 0.5s;
-			  -webkit-transition: all 0.4s;
-			  -o-transition: all 0.4s;
-			  -moz-transition: all 0.4s;
-			  transition: all 0.4s;
-		}
-
-	</style>
 </head>
 <body>
 	
@@ -73,9 +42,6 @@
 					
 					<div class="container-login100-form-btn">
 						<button type="submit" class="login100-form-btn" style="background-image:linear-gradient(135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);">
-							Login
-						</button>
-						<button type="submit" class="login-gradiente">
 							Login
 						</button>
 					</div>
