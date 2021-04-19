@@ -16,7 +16,7 @@
 <body>
 	
 	<div class="limiter">
-		<div class="container-login100">
+		<div class="container-login100" style="background-image:linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);">
 			<div class="wrap-login100">
 				<div class="login100-pic js-tilt" data-tilt>
 					<img src="images/img-01.png" style="border-radius:300px;" alt="IMG">
