@@ -85,12 +85,13 @@ session_start()
                                     <input name="senha2" class="input is-large" type="password" placeholder="Confirmar senha">
                                 </div>
                             </div>
-                            <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
-                            <div class="field">
-                                <div class="control">
+                             <div class="container">
+                                     <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
+                                </div>
+                            
+                                <div class="container">
                                      <a href="index.php" class="button is-danger is-link is-large is-fullwidth mb-2">Voltar</a>
                                 </div>
-                            </div>
                         </form>
                     </div>
                 </div>
