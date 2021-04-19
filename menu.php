@@ -60,7 +60,7 @@
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="app.png" alt="duas pessoas com um notebook">
+              <img src="wit-slide1.png" alt="duas pessoas com um notebook">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Wit Solutions</h1>
@@ -70,7 +70,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="negocio.png" alt="ações subindo">
+              <img src="wit-slide2.png" alt="ações subindo">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Contato</h1>
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="seguranca.png" alt="segurança cadeado">
+              <img src="wit-slide3.png" alt="segurança cadeado">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Planos</h1>
