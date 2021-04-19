@@ -168,11 +168,11 @@ iframe {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: #FF9800 !important;
-  background-image: -webkit-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8)!important;
-  background-image: -o-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8)!important;
-  background-image: -moz-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8)!important;
-  background-image: linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8)!important;
+  background: #FF9800;
+  background: -webkit-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
+  background: -o-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
+  background: -moz-linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
+  background: linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
 }
 
 .wrap-login100 {
@@ -350,6 +350,10 @@ iframe {
 
 .login100-form-btn:hover {
   background-image:linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
+-webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 /*------------------------------------------------------------------
