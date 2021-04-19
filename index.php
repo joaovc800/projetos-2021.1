@@ -46,7 +46,7 @@
 					</div>
 					
 					<div class="container-login100-form-btn">
-						<button type="submit" class="login100-form-btn" style="background-image:linear-gradient(135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);">
+						<button type="submit" class="login100-form-btn">
 							Login
 						</button>
 					</div>
