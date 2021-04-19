@@ -86,6 +86,7 @@ session_start()
                                 </div>
                             </div>
                             <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
+                            <a href="index.php" class="button is-block is-link is-large is-fullwidth">Cadastrar</a>
                         </form>
                     </div>
                 </div>
