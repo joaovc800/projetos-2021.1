@@ -17,7 +17,7 @@ session_start()
 
 <body>
     <section class="hero is-success is-fullheight">
-        <div class="hero-body input-block">
+        <div class="hero-body input-block" style="background-image:linear-gradient(-135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);">
             <div class="container has-text-centered input-block">
                 <div class="column is-4 is-offset-4 input-block">
                     <h3 class="title has-text-grey">Cadastre-se</h3>
