@@ -41,6 +41,7 @@
 
 		.login-gradiente:hover{
 			background-image:linear-gradient(135deg, #D9880D, #FF9800,#208591,#33B6C4,#40D6E8);
+			transition: background-image 0.5s;
 		}
 
 	</style>
