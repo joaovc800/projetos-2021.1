@@ -15,7 +15,7 @@
 	
 	<style>
 		.container-login100 {
-			backgound-image:linear-gradiente(to left, #D9880D,#FF9800,#208591,#33B6C4,#40D6E8);	
+			backgound-image:linear-gradiente(to left, #D9880D,#FF9800,#208591,#33B6C4,#40D6E8)!important;	
 		}
 	</style>
 </head>
