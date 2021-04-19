@@ -70,7 +70,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="wit-slide2.png" alt="ações subindo">
+              <img src="negocio.png" alt="ações subindo">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Contato</h1>
@@ -80,7 +80,7 @@
               </div>
             </div>
             <div class="carousel-item">
-              <img src="wit-slide3.png" alt="segurança cadeado">
+              <img src="seguranca.png" alt="segurança cadeado">
               <div class="container">
                 <div class="carousel-caption text-start">
                   <h1>Planos</h1>
