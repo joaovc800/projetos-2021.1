@@ -89,9 +89,8 @@ session_start()
                                    <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button><br>
                               </div>
                              <a class="txt2" href="index.php">
-							 Voltar
-							<i class="fa fa-long-arrow-left m-l-5" aria-hidden="true"></i>
-						</a>    
+				     <i class="fa fa-long-arrow-left m-l-5" aria-hidden="true"></i>
+				Voltar</a>  
                         </form>
                     </div>
                 </div>
