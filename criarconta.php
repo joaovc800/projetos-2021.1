@@ -86,11 +86,11 @@ session_start()
                                 </div>
                             </div>
                              <div class="control">
-                                     <button type="submit" class="button is-block is-link is-large is-fullwidth mb-4">Cadastrar</button>
+                                     <button type="submit" class="button is-block is-link is-large is-fullwidth">Cadastrar</button>
                                 </div>
                             <hr>
                                 <div class="control">
-                                     <a href="index.php" class="button is-danger is-link is-large is-fullwidth mt-2">Voltar</a>
+                                     <a href="index.php" class="button is-danger is-link is-large is-fullwidth">Voltar</a>
                                 </div>
                         </form>
                     </div>
