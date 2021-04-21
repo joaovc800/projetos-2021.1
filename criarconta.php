@@ -67,7 +67,7 @@ session_start()
                         <form action="cadastrar.php" method="POST">
                             <div class="field">
                                 <div class="control">
-                                    <input name="nome" type="text" class="input is-large" placeholder="Nome" autofocus>
+                                    <input name="nome" type="text" class="input is-large" placeholder="Nome completo" autofocus>
                                 </div>
                             </div>
                             <div class="field">
