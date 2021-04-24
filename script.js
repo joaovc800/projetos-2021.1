@@ -5,8 +5,8 @@ var load = setInterval(animate, 25);
 function animate(){
     if(count == 100){
         clearInterval(load);
-        window.location = "https://wit-solutions.herokuapp.com/menu.php";
-        break;
+        window.location.href = "https://wit-solutions.herokuapp.com/menu.php";
+        
     }
     else{
         count = count + 1;
