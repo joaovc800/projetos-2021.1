@@ -4,7 +4,7 @@ var load = setInterval(animate, 25);
 
 function animate(){
     if(count == 100){
-        window.location.href = "<?php header('Location: menu.php');?>";
+        window.location = "<?php header('Location: menu.php')?>";
         clearInterval(load);
         
     }
