@@ -18,7 +18,7 @@ $row = mysqli_num_rows($resultado); // se encontrar o resultado ela vai retornar
 
 if($row == 1){
     $_SESSION['usuario'] = $usuario; //autenticado armazena a sessão na variavel usuario
-    header('Location: menu.php'); //leva para pagina desejada
+    header('Location: loading.php'); //leva para pagina desejada
     exit(); // fecha os cabeçalhos
 }
 else{
