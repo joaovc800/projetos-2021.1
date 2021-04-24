@@ -1,7 +1,7 @@
 var porcent = document.querySelector('.porcent');
 var count = 4;
 //var load = setInterval(animate, 25);
-if(window.location != "https://wit-solutions.herokuapp.com/menu.php"){
+if(window.location != "https://wit-solutions.herokuapp.com/menu.php" || window.location != "https://wit-solutions.herokuapp.com/planos.php"){
     var load = setInterval(animate, 25);
     }
 function animate(){
