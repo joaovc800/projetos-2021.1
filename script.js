@@ -1,6 +1,6 @@
 var porcent = document.querySelector('.porcent');
 var count = 4;
-var load = setInterval(animate, 50);
+var load = setInterval(animate, 1000);
 
 function animate(){
     if(count == 100){
