@@ -4,11 +4,11 @@ var load = setInterval(animate, 25);
 
 function animate(){
     if(count == 100){
-        clearInterval(load);
-        while(count == 100){
+          while(count == 100){
             window.location.href = "https://wit-solutions.herokuapp.com/menu.php";
             break;
         }
+        clearInterval(load);
         
     }
     else{
