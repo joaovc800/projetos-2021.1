@@ -6,7 +6,7 @@ function animate(){
     if(count == 100){
         clearInterval(load);
         window.location = "https://wit-solutions.herokuapp.com/menu.php";
-        return;
+        break;
     }
     else{
         count = count + 1;
