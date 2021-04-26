@@ -1,8 +1,6 @@
 <?php
   session_start();
-  if($_SESSION['usuario']) {
-	header('Location: menu.php');
-	exit();
+include('verifica_login');
 }
 ?>
 <!DOCTYPE html>
