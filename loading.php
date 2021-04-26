@@ -1,8 +1,3 @@
-<?php
-  session_start();
-include('verifica_login');
-}
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
