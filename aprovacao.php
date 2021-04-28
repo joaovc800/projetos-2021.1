@@ -56,8 +56,8 @@
         <p class="lead text-center">Por gentileza aguarde entre 24 a 48 horas para verificarmos a  aprovação do pagamennto</p>
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
             <div class="col-md-6 px-0">
-                <h1 class="display-4">Aqui você verá seu rastreio</h1>
-                <p class="lead my-3">Com a wit solutions temos os rastreios dos equipametos que irão chegar na sua empresa</p>
+                <h1 class="display-4">Aqui você verá seu rastreio e em pouco tempo já podera desfrutar de nossos experts </h1>
+                <p class="lead my-3">Com a wit solutions você terá a melhor assistência técnica e proteção garantida a sua empresa e seus clientes</p>
                 <p class="lead mb-0"><a href="#" class="text-white fw-bold">confira aqui</a></p>
             </div>
         </div>
