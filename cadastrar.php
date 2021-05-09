@@ -7,7 +7,7 @@ if(empty($_POST['nome']) || empty($_POST['usuario']) || empty($_POST['senha1']) 
 	header('Location: criarconta.php');
     exit();
 }
-$nome = mysqli_real_escape_string($conexao,utf8_encode($_POST['nome']);
+$nome = mysqli_real_escape_string($conexao,$_POST['nome']);
 $telefone = mysqli_real_escape_string($conexao,($_POST['telefone']));
 $usuario = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
 $senha1 = mysqli_real_escape_string($conexao, trim($_POST['senha1']));
