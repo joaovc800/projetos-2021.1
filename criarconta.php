@@ -77,7 +77,7 @@ session_start()
                             </div>
 			    <div class="field">
                                 <div class="control input-block">
-                                    <input name="telefone" type="text" class="input is-large" placeholder="DDD + Telefone" max="11">
+                                    <input name="telefone" type="text" class="input is-large" placeholder="DDD + Telefone" maxlength="11">
                                 </div>
                             </div>
                             <div class="field">
