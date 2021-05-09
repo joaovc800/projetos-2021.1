@@ -75,6 +75,11 @@ session_start()
                                     <input name="usuario" type="text" class="input is-large" placeholder="Usuário">
                                 </div>
                             </div>
+			    <div class="field">
+                                <div class="control input-block">
+                                    <input name="telefone" type="text" class="input is-large" placeholder="DDD + Telefone">
+                                </div>
+                            </div>
                             <div class="field">
                                 <div class="control">
                                     <input name="senha1" class="input is-large" type="password" placeholder="Senha">
