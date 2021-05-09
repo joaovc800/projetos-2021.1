@@ -9,6 +9,7 @@ if(empty($_POST['nome']) || empty($_POST['usuario']) || empty($_POST['senha1']) 
 }
 
 $nome = mysqli_real_escape_string($conexao, trim($_POST['nome']));
+$telefone = mysqli_real_escape_string($conexao, trim($_POST['telefone']));
 $usuario = mysqli_real_escape_string($conexao, trim($_POST['usuario']));
 $senha1 = mysqli_real_escape_string($conexao, trim($_POST['senha1']));
 $senha2 = mysqli_real_escape_string($conexao, trim($_POST['senha2']));
@@ -30,7 +31,7 @@ if($row['total'] == 1) {
 	exit;
 }
 
-$sql = "INSERT INTO `heroku_3f91cda5aaca95a`.`usuarios` (id, nome, username, password) VALUES (NULL,'$nome', '$usuario', '$senha2')";
+$sql = "INSERT INTO `heroku_3f91cda5aaca95a`.`usuarios` (id, nome, telefone, username, password) VALUES (NULL,'$nome','$telefone', '$usuario', '$senha2')";
 if($conexao->query($sql) === TRUE) {
 	$_SESSION['status_cadastro'] = true;
 }
