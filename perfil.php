@@ -50,22 +50,98 @@
 	<div class="row">
 		<div class="col-md-12">
 			<h3 class="text-center">
-				Nome
+				Dados do seu perfil
 			</h3>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<h3 class="text-center">
-				usuário
-			</h3>
-		</div>
-	</div>
-	<div class="row">
-		<div class="col-md-12">
-			<h3 class="text-center">
-				Telefone
-			</h3>
+			<table class="table">
+				<thead>
+					<tr>
+						<th>
+							#
+						</th>
+						<th>
+							Nome
+						</th>
+						<th>
+							Usuário
+						</th>
+						<th>
+							Telefone
+						</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							1
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							31/05/2021
+						</td>
+						<td>
+							Projetos
+						</td>
+					</tr>
+					<tr class="table-active">
+						<td>
+							1
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							31/05/2021
+						</td>
+						<td>
+							Approved
+						</td>
+					</tr>
+					<tr class="table-success">
+						<td>
+							2
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							31/05/2021
+						</td>
+						<td>
+							Declined
+						</td>
+					</tr>
+					<tr class="table-warning">
+						<td>
+							3
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							03/04/2021
+						</td>
+						<td>
+							Pending
+						</td>
+					</tr>
+					<tr class="table-danger">
+						<td>
+							4
+						</td>
+						<td>
+							TB - Monthly
+						</td>
+						<td>
+							31/05/2021
+						</td>
+						<td>
+							Call in to confirm
+						</td>
+					</tr>
+				</tbody>
+			</table>
 		</div>
 	</div>
 </div>
