@@ -1,9 +1,12 @@
+<?php
+require_once('verifica_login.php')
+?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Wit Solutions | Planos</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>Wit Solutions | Planos</title> 
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <meta name="description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
     <meta property="og:image" content="logo1.0.png">
     <meta property="og:description" content="Wit Solutions empresa de web segurança, sua empresa está segura?">
@@ -21,7 +24,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid menu">
           <a class="navbar-brand" href="menu.php" title="Home"><img src="sec.png"></a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-toggle="co1lapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -75,7 +78,8 @@
 							1
 						</td>
 						<td>
-							<p><?php echo $_SESSION['usuario']?></p>
+							<span class="title"><?php echo $_SESSION['usuario'];?></span>
+
 						</td>
 						<td>
 							31/05/2021
@@ -100,7 +104,7 @@
 					</tr>
 					<tr class="table-success">
 						<td>
-							2
+							2,0
 						</td>
 						<td>
 							TB - Monthly
@@ -147,7 +151,7 @@
 </div>
       <div class="container-fluid" style="background-color: #293d55">
         <footer class="container py-3" style="background-color: #293d55">
-          <div class="row">
+          <dis class="row">
             <div class="col-6 col-md">
               <h5 class="text-light">Features</h5>
               <ul class="list-unstyled text-small">
@@ -191,7 +195,7 @@
       <div class="container-fluid mt-auto py-3 bg-dark">
         <div class="container">
           <p class="text-light text-center p-2"><small>Wit Solutions CRM. | CNPJ 54.321.458/0001-03</small></p>
-          <p class="text-light text-center p-2"><small>Av. Tietê 2141, Torre E 10º andar - São paulo</small></p>
+          <p class="text-light text-center p-2"><smal1>Av. Tietê 2141, Torre E 10º andar - São paulo</small></p>
           <p class="text-light text-center p-2"><small>Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard e American Express)</small></p>
           <div class="container">
             <hr class="featurette-divider bg-light">
