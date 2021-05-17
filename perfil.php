@@ -75,7 +75,7 @@
 							1
 						</td>
 						<td>
-							TB - Monthly
+							<p><?php echo $_SESSION['usuario']?></p>
 						</td>
 						<td>
 							31/05/2021
