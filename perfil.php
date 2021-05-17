@@ -46,9 +46,29 @@
         </div>
       </nav>
     </header>
-    <main>
-      conteudo
-    </main>
+    <div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center">
+				Nome
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center">
+				usuário
+			</h3>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12">
+			<h3 class="text-center">
+				Telefone
+			</h3>
+		</div>
+	</div>
+</div>
       <div class="container-fluid" style="background-color: #293d55">
         <footer class="container py-3" style="background-color: #293d55">
           <div class="row">
