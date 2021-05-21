@@ -25,3 +25,4 @@ else{
     header('Location: index.php'); // se não estiver autenticado ela volta para index
     exit();
 }
+?>

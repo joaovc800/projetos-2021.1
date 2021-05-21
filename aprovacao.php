@@ -30,7 +30,7 @@
       $linha = mysqli_fetch_assoc($resultado);
     }
     header('Location: aprovacao.php');
-    exit;
+    exit();
     ?>
     <meta charset="utf-8">
     <title>Wit Solutions | Aprovação</title>
