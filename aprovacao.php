@@ -7,6 +7,7 @@
 <html>
   <head>
     <?php
+    echo $_SESSION['id']; 
     include("conexao.php");
     $plano = $_COOKIE['plano'];
     if($plano == '1') {
