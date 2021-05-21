@@ -77,7 +77,7 @@
     </header>
     <main class="px-3">
         <h1 class="text-center display-4">Dados  em  análise</h1>
-        <p class="lead text-center">Por gentileza aguarde entre 24 a 48 horas para verificarmos a  aprovação do pagamennto</p>
+        <p class="lead text-center">Por gentileza aguarde entre 24 a 48 horas para verificarmos a  aprovação do pagamento</p>
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
             <div class="col-md-6 px-0">
                 <h1 class="display-4">Aqui você verá seu rastreio e em pouco tempo já podera desfrutar de nossos experts </h1>
