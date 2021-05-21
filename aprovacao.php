@@ -7,7 +7,6 @@
 <html>
   <head>
     <?php
-    ini_set('display_errors', '1');
     include("conexao.php");
     $plano = $_COOKIE['plano'];
     if($plano == '1') {
@@ -28,9 +27,8 @@
     if($uid != NULL) {
       $queryPacote = "INSERT INTO `heroku_3f91cda5aaca95a`.`planos` (id_planos,plano,status,valor) VALUES(NULL,'$uid','ativo','$valor')";
       $resultado = mysqli_query($conexao,$queryPacote);
-      // $linha = mysqli_fetch_assoc($resultado);
+      // ISSO AQUI CAUSA BUG $linha = mysqli_fetch_assoc($resultado);
     }
-    
     ?>
     <meta charset="utf-8">
     <title>Wit Solutions | Aprovação</title>
