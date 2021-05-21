@@ -20,6 +20,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="wit.png"/>
+    <script>
+      const pegarPacote = (pacote) => {
+      console.log("O form foi enviado");
+      document.cookie = `plano=${pacote}`;
+      };
+     // Este script serve para salvar no cliente qual plano foi adquirido (de 1 a 3)
+    </script>
   </head>
   <body>
     <header class="sticky-top">
@@ -70,7 +77,7 @@
               <li>Suporte por e-mail</li>
               <li>central de atendimento</li>
             </ul>
-            <form action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
+            <form onsubmit="pegarPacote(1)" action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
@@ -100,7 +107,7 @@
               <li>Suporte por e-mail</li>
               <li>Central de atendimento</li>
             </ul>
-            <form action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
+            <form onsubmit="pegarPacote(2)" action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
@@ -132,7 +139,7 @@
               <li>Suporte por e-mail</li>
               <li>Central de atendimento</li>
             </ul>
-            <form action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
+            <form onsubmit="pegarPacote(3)" action="https://wit-solutions.herokuapp.com/aprovacao.php" method="POST">
                 <script
                 src="https://www.mercadopago.com.br/integrations/v1/web-tokenize-checkout.js"
                 data-public-key="TEST-351a9faa-2a69-4d5f-b591-eecfab20b130"
