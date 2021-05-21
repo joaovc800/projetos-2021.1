@@ -2,7 +2,7 @@
   session_start();
   include('verifica_login.php');
 ?>
-<?php
+<!-- 
       include("conexao.php");
       $plano = $_COOKIE['plano'];
       if($plano == '1') {
@@ -27,7 +27,7 @@
       }
       header('Location: aprovacao.php');
       exit;
-    ?>
+?> -->
 <!DOCTYPE html>
 <html>
   <head>
