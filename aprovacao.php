@@ -2,32 +2,32 @@
   session_start();
   include('verifica_login.php');
 ?>
-<!-- 
-      include("conexao.php");
-      $plano = $_COOKIE['plano'];
-      if($plano == '1') {
-        $uid = "Community";
-        $valor = '50.00';
-        setcookie("plano", "", time() - 3600);
-      }
-      if($plano == '2') {
-        $uid = "Pro";
-        $valor = '120.00';
-        setcookie("plano", "", time() - 3600);
-      }
-      if($plano == '3') {
-        $uid = "Enterprise";
-        $valor = '200.00';
-        setcookie("plano", "", time() - 3600);
-      }
-      if($uid != NULL) {
-        $queryPacote = "INSERT INTO `heroku_3f91cda5aaca95a`.`planos` (id_planos,plano,status,valor) VALUES(NULL,'$uid','ativo','$valor')";
-        $resultado = mysqli_query($conexao,$queryPacote);
-        $linha = mysqli_fetch_assoc($resultado);
-      }
-      header('Location: aprovacao.php');
-      exit;
-?> -->
+<?php
+  include("conexao.php");
+  $plano = $_COOKIE['plano'];
+  if($plano == '1') {
+    $uid = "Community";
+    $valor = '50.00';
+    setcookie("plano", "", time() - 3600);
+  }
+  if($plano == '2') {
+    $uid = "Pro";
+    $valor = '120.00';
+    setcookie("plano", "", time() - 3600);
+  }
+  if($plano == '3') {
+    $uid = "Enterprise";
+    $valor = '200.00';
+    setcookie("plano", "", time() - 3600);
+  }
+  if($uid != NULL) {
+    $queryPacote = "INSERT INTO `heroku_3f91cda5aaca95a`.`planos` (id_planos,plano,status,valor) VALUES(NULL,'$uid','ativo','$valor')";
+    $resultado = mysqli_query($conexao,$queryPacote);
+    $linha = mysqli_fetch_assoc($resultado);
+  }
+  // header('Location: aprovacao.php');
+  // exit;
+?>
 <!DOCTYPE html>
 <html>
   <head>
