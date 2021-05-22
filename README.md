@@ -8,7 +8,7 @@
 | RA   | NOME COMPLETO | CURSO | TURMA |
 |------|---------------|-------|-------|
 | 920102019 | JOÃO VINICIUS DA COSTA  | TADS | 3    |
-| 920123532 | GABRIEL BARBOSA TEXEIRA | TADS | 3    |
+| 920123532 | GABRIEL BARBOSA TEIXEIRA | TADS | 3    |
 | 920110693 | LEONARDO AUGUSTO COELHO FERREIRA  | TADS | 3    |
 
 ## Descrição do Projeto
