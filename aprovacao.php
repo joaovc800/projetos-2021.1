@@ -7,8 +7,8 @@
 <html>
   <head>
     <?php
-    echo $_SESSION['id']; 
     include("conexao.php");
+    $id = $_SESSION['id'];
     $plano = $_COOKIE['plano'];
     if($plano == '1') {
       $uid = "Community";
@@ -26,7 +26,9 @@
       setcookie("plano", "", time() - 3600);
     }
     if($uid != NULL) {
-      $queryPacote = "INSERT INTO `heroku_3f91cda5aaca95a`.`planos` (id_planos,plano,status,valor) VALUES(NULL,'$uid','ativo','$valor')";
+      // $queryPacote = "INSERT INTO `heroku_3f91cda5aaca95a`.`planos` (id_planos,plano,status,valor) VALUES(NULL,'$uid','ativo','$valor')";
+      $queryPacote = "UPDATE usuarios SET plano = '$uid' where id = '$id'";
+      
       $resultado = mysqli_query($conexao,$queryPacote);
       // ISSO AQUI CAUSA BUG $linha = mysqli_fetch_assoc($resultado);
     }
