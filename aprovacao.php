@@ -6,6 +6,33 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <?php
+    include("conexao.php");
+    $id = $_SESSION['id'];
+    $plano = $_COOKIE['plano'];
+    if($plano == '1') {
+      $uid = "Community";
+      $valor = '50.00';
+      setcookie("plano", "", time() - 3600);
+    }
+    if($plano == '2') {
+      $uid = "Pro";
+      $valor = '120.00';
+      setcookie("plano", "", time() - 3600);
+    }
+    if($plano == '3') {
+      $uid = "Enterprise";
+      $valor = '200.00';
+      setcookie("plano", "", time() - 3600);
+    }
+    if($uid != NULL) {
+      // $queryPacote = "INSERT INTO `heroku_3f91cda5aaca95a`.`planos` (id_planos,plano,status,valor) VALUES(NULL,'$uid','ativo','$valor')";
+      $queryPacote = "UPDATE usuarios SET plano = '$uid' where id = '$id'";
+      
+      $resultado = mysqli_query($conexao,$queryPacote);
+      // ISSO AQUI CAUSA BUG $linha = mysqli_fetch_assoc($resultado);
+    }
+    ?>
     <meta charset="utf-8">
     <title>Wit Solutions | Aprovação</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
@@ -53,7 +80,7 @@
     </header>
     <main class="px-3">
         <h1 class="text-center display-4">Dados  em  análise</h1>
-        <p class="lead text-center">Por gentileza aguarde entre 24 a 48 horas para verificarmos a  aprovação do pagamennto</p>
+        <p class="lead text-center">Por gentileza aguarde entre 24 a 48 horas para verificarmos a  aprovação do pagamento</p>
         <div class="p-4 p-md-5 mb-4 text-white rounded bg-dark">
             <div class="col-md-6 px-0">
                 <h1 class="display-4">Aqui você verá seu rastreio e em pouco tempo já podera desfrutar de nossos experts </h1>
