@@ -1,6 +1,5 @@
 <?php
 require_once('verifica_login.php');
-include('conexao.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -63,6 +62,7 @@ include('conexao.php');
 					</h3>
 					<p>
 						<?php
+							include('conexao.php');
 							$query = "SELECT * FROM usuarios";
 							$dados = mysqli_query($query, $conexao);
 							$linha = mysqli_fetch_assoc($dados);
