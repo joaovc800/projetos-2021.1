@@ -1,5 +1,6 @@
 <?php
-require_once('verifica_login.php')
+require_once('verifica_login.php');
+include('conexao.php');
 ?>
 <!DOCTYPE html>
 <html>
@@ -53,99 +54,39 @@ require_once('verifica_login.php')
 	<div class="row">
 		<div class="col-md-12">
 			<h3 class="text-center">
-				Dados do seu perfil
+				DADOS DO SEU PERFIL
 			</h3>
-			<table class="table">
-				<thead>
-					<tr>
-						<th>
-							#
-						</th>
-						<th>
-							Nome
-						</th>
-						<th>
-							Usuário
-						</th>
-						<th>
-							Telefone
-						</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>
-							1
-						</td>
-						<td>
-							<span class="title"><?php echo $_SESSION['usuario'];?></span>
-
-						</td>
-						<td>
-							31/05/2021
-						</td>
-						<td>
-							Projetos
-						</td>
-					</tr>
-					<tr class="table-active">
-						<td>
-							1
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							31/05/2021
-						</td>
-						<td>
-							Approved
-						</td>
-					</tr>
-					<tr class="table-success">
-						<td>
-							2,0
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							31/05/2021
-						</td>
-						<td>
-							Declined
-						</td>
-					</tr>
-					<tr class="table-warning">
-						<td>
-							3
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							03/04/2021
-						</td>
-						<td>
-							Pending
-						</td>
-					</tr>
-					<tr class="table-danger">
-						<td>
-							4
-						</td>
-						<td>
-							TB - Monthly
-						</td>
-						<td>
-							31/05/2021
-						</td>
-						<td>
-							Call in to confirm
-						</td>
-					</tr>
-				</tbody>
-			</table>
+			<div class="row">
+				<div class="col-md-4">
+					<h3>
+						NOME
+					</h3>
+					<p>
+						<?php
+							$query = "SELECT * FROM usuarios";
+							$dados = mysqli_query($query, $conexao);
+							$linha = mysqli_fetch_assoc($dados);
+							echo "$linha['nome']";
+						?>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3>
+						USUÁRIO
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3>
+						PLANO
+					</h3>
+					<p>
+						Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>. Aliquam eget sapien sapien. Curabitur in metus urna. In hac habitasse platea dictumst. Phasellus eu sem sapien, sed vestibulum velit. Nam purus nibh, lacinia non faucibus et, pharetra in dolor. Sed iaculis posuere diam ut cursus. <em>Morbi commodo sodales nisi id sodales. Proin consectetur, nisi id commodo imperdiet, metus nunc consequat lectus, id bibendum diam velit et dui.</em> Proin massa magna, vulputate nec bibendum nec, posuere nec lacus. <small>Aliquam mi erat, aliquam vel luctus eu, pharetra quis elit. Nulla euismod ultrices massa, et feugiat ipsum consequat eu.</small>
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
